@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
     <title>PetFax</title>
 </head>
 <body>
-    <h1>Welcome to PetFax</h1>
+    <h1>Welcome to PetFax!</h1>
+        <p>-Where every paw has a story-</p>
     {% for pet in pets %}
         <h2>{{ pet.pet_name }}</h2>
         <img src="{{ pet.pet_photo }}" alt="Photo of pet"/>
     {% endfor %}
+    <div class="funfax">
+        Join in on the fun & add some fun fax! <a class="link" href="/facts/new">Submit fax</a>
+    </div>
 </body>
 </html> 

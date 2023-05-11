@@ -1,0 +1,61 @@
+* {
+    background-color: khaki;
+}
+
+h1 {
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    text-shadow: 2px 2px 0 orange;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    background-color: khaki; 
+    padding: 1rem;
+    border-radius: 10px;
+  }
+
+p {
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: skyblue;
+    line-height: 1.5;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+  
+.funfax {
+    font-size: 1.5em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: skyblue;
+    line-height: 1.5;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.submit {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .submit {
+    opacity: 0.8;
+  }
+  
+  .submit {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  

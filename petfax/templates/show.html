@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pets</title>
+</head>
+<body>
+    <div class="show-container">
+        <H1>{{ pet.pet_name}}</H1>
+        <div class="show">
+            <h3> Fun fax - {{ pet.pet_name}}.</h3>
+            <p> {{ pet.pet_fact }}. </p>
+                <img src="{{ pet.pet_photo }}" alt="pet photo"/>
+        </div>
+        <div>
+            <a class="link" href="/pets"> <-Return</a>
+        </div>
+    </div>
+    <footer>
+        <p></p>
+    </footer> 
+</body>
+</html>
